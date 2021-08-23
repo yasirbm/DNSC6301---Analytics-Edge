@@ -2,20 +2,21 @@
 
 ### Basic Information
 
-* **Person or organization developing model**: Patrick Hall, `jphall@gwu.edu`
+* **Persons involved in developing model**: Yasir Mohammad - `yasir@gwu.edu`, Katherine Scheuer - `kscheuer@gwu.edu`, Sadman Noor - `snoor11@gwu.edu`, Somender Chaudhary - `somender@gwu.edu` 
 * **Model date**: August, 2021
 * **Model version**: 1.0
-* **License**: MIT
-* **Model implementation code**: [DNSC_6301_Example_Project.ipynb](DNSC_6301_Example_Project.ipynb)
+* **License**: Apache 2.0
+* **Model implementation code**: **TO BE FILLED**
 
 ### Intended Use
 * **Primary intended uses**: This model is an *example* probability of default classifier, with an *example* use case for determining eligibility for a credit line increase.
-* **Primary intended users**: Students in GWU DNSC 6301 bootcamp.
+* **Primary intended users**: Other students or professors assosciated with DNSC6301 - Analytics Edge and Data Ethics at the George Washington University School of Business.
 * **Out-of-scope use cases**: Any use beyond an educational example is out-of-scope.
 
 ### Training Data
 
-* Data dictionary: 
+* Data dictionary:
+* **NOTE FOR GROUP - WE NEED TO EDIT THE BELOW AFTER WE SWITCH ALL THE REQUIRED VARIABLES INTO CATEGORICAL VARIABLES (I.E. - RACE)
 
 | Name | Modeling Role | Measurement Level| Description|
 | ---- | ------------- | ---------------- | ---------- |
@@ -38,7 +39,7 @@
   * Validation rows: 7,500
 
 ### Test Data
-* **Source of test data**: GWU Blackboard, email `jphall@gwu.edu` for more information
+* **Source of test data**: GWU Blackboard, email one of the authors listed above for more information
 * **Number of rows in test data**: 7,500
 * **State any differences in columns between training and test data**: None
 
