@@ -5,7 +5,7 @@
 * **Persons involved in developing model**: Yasir Mohammad - `yasir@gwu.edu`, Katherine Scheuer - `kscheuer@gwu.edu`, Sadman Noor - `snoor11@gwu.edu`, Somender Chaudhary - `somender@gwu.edu` 
 * **Model date**: August, 2021
 * **Model version**: 1.0
-* **License**: Apache 2.0
+* **License**: MIT License
 * **Model implementation code**: **TO BE FILLED**
 
 ### Intended Use
