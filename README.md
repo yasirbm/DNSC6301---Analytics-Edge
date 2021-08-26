@@ -43,3 +43,35 @@
 * **Number of rows in test data**: 7,500
 * **State any differences in columns between training and test data**: None
 
+### Model Details
+* **Columns used as inputs in the final model**: 
+  * Limit_BAL
+  * PAY_0, PAY_2, PAY_3, PAY_4, PAY_5, PAY_6
+  * BILL_AMT1, BILL_AMT2, BILL_AMT3, BILL_AMT4, BILL_AMT5, BILL_AMT6
+  * PAY_AMT1, PAY_AMT2, PAY_AMT3, PAY_AMT4, PAY_AMT5, PAY_AMT6
+* **Columns used as targets in the final model**: DELINQ_NEXT
+* **Type of Model**: Supervised Learning - Decision Tree Model
+* **Software used to train the Model**: Python via Google Colab
+* **Version of the Software used to train the Model**: Python 3.6.9
+* **Hyperparameters or other settings of the model**: ***TO FILL OUT***
+
+### Quantitative Analysis
+* **Metrics used to evaluate the model and final figures**:
+  * **Training AUC**: 0.78
+  * **Validation AUC**: 0.75
+  * **Test AUC**: 0.74
+  * **Asian-to-White AIR**: 1.00
+  * **Black-to-White AIR**: 0.85
+  * **Female-to-Male AIR**: 1.02
+  * **Hispanic-to-White AIR**: 0.83
+* **Iteration Plot of the final model (inclusive of Training AUC, Validation AUC and Hispanic-to-White AIR**: ![download](https://user-images.githubusercontent.com/89418186/131016505-362577e1-9d0a-4196-9fda-056a8cd8c486.png)
+
+### Ethical Considerations
+* **Potential negative impacts of the model**:
+  * **Math/Software Problems**: ________***TO FILL OUT***
+  * **Real world risks**: ________***TO FILL OUT**
+* **Potential uncertainties relating to the impact of using the model**:
+  * **Math/Software Problems**: ________***TO FILL OUT***
+  * **Real world risks**: ________***TO FILL OUT**
+* **Other unexpected results**: 
+  * ____ ***TO FILL OUT***
