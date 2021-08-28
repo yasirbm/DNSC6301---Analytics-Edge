@@ -63,8 +63,10 @@
   * **Black-to-White AIR**: 0.85
   * **Female-to-Male AIR**: 1.02
   * **Hispanic-to-White AIR**: 0.83
-* **Correlation Heat Map**: ![corr heat map](https://user-images.githubusercontent.com/89418186/131205390-7b8b4da4-3972-403d-bea3-ac775cf11447.png)
-* **Variable Importance Chart**: ![variable importance](https://user-images.githubusercontent.com/89418186/131205409-30556aa7-ce8c-474c-b67e-9e586ad561bb.png)
+* **Correlation Heat Map**:
+* ![corr heat map](https://user-images.githubusercontent.com/89418186/131205390-7b8b4da4-3972-403d-bea3-ac775cf11447.png)
+* **Variable Importance Chart**:
+* ![variable importance](https://user-images.githubusercontent.com/89418186/131205409-30556aa7-ce8c-474c-b67e-9e586ad561bb.png)
 * **Iteration Plot of the final model (inclusive of Training AUC, Validation AUC and Hispanic-to-White AIR**: ![download](https://user-images.githubusercontent.com/89418186/131016505-362577e1-9d0a-4196-9fda-056a8cd8c486.png)
 * **
 
