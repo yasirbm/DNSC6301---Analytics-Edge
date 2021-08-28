@@ -16,7 +16,6 @@
 ### Training Data
 
 * Data dictionary:
-* **NOTE FOR GROUP - WE NEED TO EDIT THE BELOW AFTER WE SWITCH ALL THE REQUIRED VARIABLES INTO CATEGORICAL VARIABLES (I.E. - RACE)
 
 | Name | Modeling Role | Measurement Level| Description|
 | ---- | ------------- | ---------------- | ---------- |
@@ -32,7 +31,7 @@
 | **PAY_AMT1 - PAY_AMT6** | inputs | float | amount of previous payment; PAY_AMT1 = amount paid in September, 2005; PAY_AMT2 = amount paid in August, 2005; ...; PAY_AMT6 = amount paid in April, 2005 |
 | **DELINQ_NEXT**| target | int | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time |
 
-* **Source of training data**: GWU Blackboard, email `jphall@gwu.edu` for more information
+* **Source of training data**: GWU Blackboard, email one of the authors above for more information
 * **How training data was divided into training and validation data**: 50% training, 25% validation, 25% test
 * **Number of rows in training and validation data**:
   * Training rows: 15,000
@@ -53,7 +52,7 @@
 * **Type of Model**: Supervised Learning - Decision Tree Model
 * **Software used to train the Model**: Python via Google Colab
 * **Version of the Software used to train the Model**: Python 3.6.9
-* **Hyperparameters or other settings of the model**: ***TO FILL OUT***
+* **Hyperparameters or other settings of the model**: ccp_alpha=0.0, class_weight=None, criterion='gini', max_depth=6, max_features=None, max_leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, min_samples_leaf=1, min_samples_split=2, min_weight_fraction_leaf=0.0, presort='deprecated', random_state=12345, splitter='best'
 
 ### Quantitative Analysis
 * **Metrics used to evaluate the model and final figures**:
@@ -64,7 +63,10 @@
   * **Black-to-White AIR**: 0.85
   * **Female-to-Male AIR**: 1.02
   * **Hispanic-to-White AIR**: 0.83
+* **Correlation Heat Map: ![corr heat map](https://user-images.githubusercontent.com/89418186/131205390-7b8b4da4-3972-403d-bea3-ac775cf11447.png)
+* **Variable Importance Chart: ![variable importance](https://user-images.githubusercontent.com/89418186/131205409-30556aa7-ce8c-474c-b67e-9e586ad561bb.png)
 * **Iteration Plot of the final model (inclusive of Training AUC, Validation AUC and Hispanic-to-White AIR**: ![download](https://user-images.githubusercontent.com/89418186/131016505-362577e1-9d0a-4196-9fda-056a8cd8c486.png)
+* **
 
 ### Ethical Considerations
 * **Potential negative impacts of the model**:
