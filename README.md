@@ -75,10 +75,10 @@
 
 ### Ethical Considerations
 * **Potential negative impacts of the model**:
-  * **Math/Software Problems**: ________***TO FILL OUT***
-  * **Real world risks**: ________***TO FILL OUT**
+  * **Math/Software Problems**: As we can see in the variable importance plot above, the model is overdependant on the PAY_O variable (which refers to the most recent repayment status). This could cause serious problems if we were to see a situation in which recent repayment behaviour drastically changes (i.e. - recession).
+  * **Real world risks**: The Hispanic-to-White AIR is 0.83. Whilst this is above the minimum acceptable AIR (0.8) defined by the Equal Employment Opportunity Commission (EEOC), this figure is still relatively low.
 * **Potential uncertainties relating to the impact of using the model**:
-  * **Math/Software Problems**: ________***TO FILL OUT***
-  * **Real world risks**: ________***TO FILL OUT**
+  * **Math/Software Problems**: It is possible we could see differential validity as the model is deployed in the real world. To mitigate this risk, the model would need to be actively monitored even post deployment.
+  * **Real world risks**: Possible risks of disparate impact due to relatively low Hispanic to White and Black to White AIR's (even though they are both above 0.8).
 * **Other unexpected results**: 
-  * ____ ***TO FILL OUT***
+  * As the model is deployed in the real word, it is possible that we will see a drop in the AUC with all groups, but particularly with demographics that are slightly underrepresented in the training data (i.e. - Hispanic and Black).
