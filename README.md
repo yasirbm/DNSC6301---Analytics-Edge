@@ -81,13 +81,15 @@ Our group has built 2 models. 1 using Python, and another using R. Since the mod
 
  ![variable importance](https://user-images.githubusercontent.com/89418186/131205409-30556aa7-ce8c-474c-b67e-9e586ad561bb.png)
  
-* **Iteration Plot of the final model (Python)**: ![download](https://user-images.githubusercontent.com/89418186/131016505-362577e1-9d0a-4196-9fda-056a8cd8c486.png)
+* **Iteration Plot of the final model (Python)**:
+ 
+* ![download](https://user-images.githubusercontent.com/89418186/131016505-362577e1-9d0a-4196-9fda-056a8cd8c486.png)
 
-* **Delinquency by Gender on test data (R)**:
+* **Delinquency by Gender (R)**:
 
  ![image](https://user-images.githubusercontent.com/89418186/131267216-35b0cca4-6923-498d-a260-1d96814ff227.png)
  
-* **Delinquency by Race on test data (R)**:
+* **Delinquency by Race (R)**:
 
  ![image](https://user-images.githubusercontent.com/89418186/131267224-69d9b364-5b30-48e9-b00e-c38a69aba149.png)
  
