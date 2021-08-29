@@ -6,7 +6,9 @@
 * **Model date**: August, 2021
 * **Model version**: 1.0
 * **License**: MIT License
-* **Model implementation code**: **TO BE FILLED**
+* **Model implementation code**:
+  * **Python Model**: [Credit_Line_Increase_Project_Python_Model.ipynb](Credit_Line_Increase_Project_Python_Model.ipynb)
+  * **R Model Markdown**: **TO FILL OUT**
 
 ### Intended Use
 * **Primary intended uses**: This model is an *example* probability of default classifier, with an *example* use case for determining eligibility for a credit line increase.
