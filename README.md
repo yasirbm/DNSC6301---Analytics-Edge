@@ -7,7 +7,7 @@
 * **Model version**: 1.0
 * **License**: MIT License
 * **Model implementation code**:
-  * **Python Model**: [Credit_Line_Increase_Project_Python_Model.ipynb](Credit_Line_Increase_Project_Python_Model.ipynb)
+  * **Python Model**: [Credit_Line_Increase_Project_Python_Model.ipynb](https://github.com/yasirbm/DNSC6301---Analytics-Edge/blob/main/Python_Model/Credit_Line_Increase_Project_Python_Model.ipynb)
   * **R Model Markdown**: **TO FILL OUT**
 
 ### Intended Use
