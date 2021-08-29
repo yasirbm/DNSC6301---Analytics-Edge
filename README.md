@@ -1,5 +1,8 @@
 # Credit Line Increase Model Card
 
+### Important Note on Our Model(s)
+Our group has built 2 models. 1 using Python, and another using R. Since the model built on Python performs better, this model card corresponds primarily to the Python Model. However, an R markdown file which summarizes the model and some of the key observations we made is available here: **TO FILL OUT**
+
 ### Basic Information
 
 * **Persons involved in developing model**: Yasir Mohammad - `yasir@gwu.edu`, Katherine Scheuer - `kscheuer@gwu.edu`, Sadman Noor - `snoor11@gwu.edu`, Somender Chaudhary - `somender@gwu.edu` 
@@ -65,16 +68,29 @@
   * **Black-to-White AIR**: 0.85
   * **Female-to-Male AIR**: 1.02
   * **Hispanic-to-White AIR**: 0.83
-* **Correlation Heat Map**:
+
+* **Naive Bayes to compare test & validation data AUC (R)**:
+
+![image](https://user-images.githubusercontent.com/89418186/131267179-aa1cfb80-98b6-454e-9790-3b382e6d6368.png)
+
+* **Correlation Heat Map (Python)**:
 
  ![corr heat map](https://user-images.githubusercontent.com/89418186/131205390-7b8b4da4-3972-403d-bea3-ac775cf11447.png)
-* **Variable Importance Chart**:
+ 
+* **Variable Importance Chart (Python)**:
 
  ![variable importance](https://user-images.githubusercontent.com/89418186/131205409-30556aa7-ce8c-474c-b67e-9e586ad561bb.png)
  
-* **Iteration Plot of the final model (inclusive of Training AUC, Validation AUC and Hispanic-to-White AIR**: ![download](https://user-images.githubusercontent.com/89418186/131016505-362577e1-9d0a-4196-9fda-056a8cd8c486.png)
-* **
+* **Iteration Plot of the final model (Python)**: ![download](https://user-images.githubusercontent.com/89418186/131016505-362577e1-9d0a-4196-9fda-056a8cd8c486.png)
 
+* **Delinquency by Gender on test data (R)**:
+
+ ![image](https://user-images.githubusercontent.com/89418186/131267216-35b0cca4-6923-498d-a260-1d96814ff227.png)
+ 
+* **Delinquency by Race on test data (R)**:
+
+ ![image](https://user-images.githubusercontent.com/89418186/131267224-69d9b364-5b30-48e9-b00e-c38a69aba149.png)
+ 
 ### Ethical Considerations
 * **Potential negative impacts of the model**:
   * **Math/Software Problems**: As we can see in the variable importance plot above, the model is overdependant on the PAY_O variable (which refers to the most recent repayment status). This could cause serious problems if we were to see a situation in which recent repayment behaviour drastically changes (i.e. - recession).
@@ -84,3 +100,4 @@
   * **Real world risks**: Possible risks of disparate impact due to relatively low Hispanic to White and Black to White AIR's (even though they are both above 0.8).
 * **Other unexpected results**: 
   * As the model is deployed in the real word, it is possible that we will see a drop in the AUC with all groups, but particularly with demographics that are slightly underrepresented in the training data (i.e. - Hispanic and Black).
+  * The plots above (delinquency by gender and delinquency by race) show potentially problematic issues straight off the bat. This could have negative implications from an algorithmic bias perspective
