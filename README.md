@@ -1,7 +1,7 @@
 # Credit Line Increase Model Card
 
 ### Important Note on Our Model(s)
-Our group has built 2 models. 1 using Python, and another using R. Since the model built on Python performs better, this model card corresponds primarily to the Python Model. However, an R markdown file which summarizes the model and some of the key observations we made is available here: **TO FILL OUT**
+Our group has built 2 models. 1 using Python, and another using R. Since the model built on Python performs better, this model card corresponds primarily to the Python Model. However, an R markdown file which summarizes the model and some of the key observations we made is available here: [R Markdown File](https://rpubs.com/yasirbm/803122)
 
 ### Basic Information
 
@@ -11,7 +11,7 @@ Our group has built 2 models. 1 using Python, and another using R. Since the mod
 * **License**: MIT License
 * **Model implementation code**:
   * **Python Model**: [Credit_Line_Increase_Project_Python_Model.ipynb](https://github.com/yasirbm/DNSC6301---Analytics-Edge/blob/main/Python_Model/Credit_Line_Increase_Project_Python_Model.ipynb)
-  * **R Model Markdown**: **TO FILL OUT**
+  * **R Model Markdown**: [R Markdown File](https://rpubs.com/yasirbm/803122)
 
 ### Intended Use
 * **Primary intended uses**: This model is an *example* probability of default classifier, with an *example* use case for determining eligibility for a credit line increase.
