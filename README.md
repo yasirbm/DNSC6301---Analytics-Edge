@@ -95,11 +95,18 @@ Our group has built 2 models. 1 using Python, and another using R. Since the mod
  
 ### Ethical Considerations
 * **Potential negative impacts of the model**:
-  * **Math/Software Problems**: As we can see in the variable importance plot above, the model is overdependant on the PAY_O variable (which refers to the most recent repayment status). This could cause serious problems if we were to see a situation in which recent repayment behaviour drastically changes (i.e. - recession).
-  * **Real world risks**: The Hispanic-to-White AIR is 0.83. Whilst this is above the minimum acceptable AIR (0.8) defined by the Equal Employment Opportunity Commission (EEOC), this figure is still relatively low.
+  * **Math/Software Problems**: As we can see in the variable importance plot above, the model is overdependant on the PAY_0 variable (which refers to the most recent repayment status). This could cause serious problems if we were to see a situation in which recent repayment behaviour drastically changes (i.e. - recession).
+  * **Real world risks**: 
+    * The Hispanic-to-White AIR is 0.83. Whilst this is above the minimum acceptable AIR (0.8) defined by the Equal Employment Opportunity Commission (EEOC), this figure is still relatively low.
+    * This model doesn't consider factors (X_variables) such as employment and family history which would likely have a significant impact on the probability of deliquency in the real world.
 * **Potential uncertainties relating to the impact of using the model**:
-  * **Math/Software Problems**: It is possible we could see differential validity as the model is deployed in the real world. To mitigate this risk, the model would need to be actively monitored even post deployment.
-  * **Real world risks**: Possible risks of disparate impact due to relatively low Hispanic to White and Black to White AIR's (even though they are both above 0.8).
+  * **Math/Software Problems**:
+    * It is possible we could see differential validity as the model is deployed in the real world. To mitigate this risk, the model would need to be actively monitored even post deployment.
+    * The data in this model was predominantly those of white consumers. Whilst this may be proportionate to the current demographic landscape of the USA, this is projected to decrease in the coming years. A better model might account for such projections when choosing the original dataset. 
+  * **Real world risks**:
+    * Possible risks of disparate impact due to relatively low Hispanic to White and Black to White AIR's (even though they are both above 0.8)
+    * This sample is very specific to the USA. If this model was used outside the USA, there could be many undesired consequences as other countries would have compeltely different consumer behaviour, demographics etc.
 * **Other unexpected results**: 
   * As the model is deployed in the real word, it is possible that we will see a drop in the AUC with all groups, but particularly with demographics that are slightly underrepresented in the training data (i.e. - Hispanic and Black).
   * The plots above (delinquency by gender and delinquency by race) show potentially problematic issues straight off the bat. This could have negative implications from an algorithmic bias perspective
+  * It was surprising for the PAY_0 X Variable to be so strongly correlated to probablity of delinquency compared to other "PAY" X_Variables.
