@@ -69,10 +69,6 @@ Our group has built 2 models. 1 using Python, and another using R. Since the mod
   * **Female-to-Male AIR**: 1.02
   * **Hispanic-to-White AIR**: 0.83
 
-* **Naive Bayes to compare test & validation data AUC (R)**:
-
-![image](https://user-images.githubusercontent.com/89418186/131267179-aa1cfb80-98b6-454e-9790-3b382e6d6368.png)
-
 * **Correlation Heat Map (Python)**:
 
  ![corr heat map](https://user-images.githubusercontent.com/89418186/131205390-7b8b4da4-3972-403d-bea3-ac775cf11447.png)
